@@ -833,8 +833,11 @@ function MarioGame() {
   this.gameOver = function() {
     score.gameOverView();
     gameUI.makeBox(0, 0, maxWidth, height);
-    gameUI.writeText('Game Over', centerPos - 80, height - 300);
-    gameUI.writeText('Thanks For Playing', centerPos - 122, height / 2);
+    gameUI.writeText('Game Over', centerPos - 80, height - 440);
+    gameUI.writeText('Огромное спасибо за игру! ', 40, height - 400);
+    gameUI.writeText('Благодаря тебе завод Реж-хлеб продолжит производить свои волшебно вкусные кексы и остальную продукцию. ', 40, height - 360);
+    gameUI.writeText('Кстати, процесс производства на заводе практически полностью автоматизирован.', 40, height - 320);
+    gameUI.writeText('Это значит, что основную работу выполняют сложные механизмы и конвейер, а люди лишь контролируют все процессы.', 40, height - 280);
   };
 
   this.resetGame = function() {

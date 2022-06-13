@@ -1,5 +1,4 @@
 //div elements for the application
-
 var View = (function() {
   var instance;
 
